@@ -92,6 +92,17 @@ Run all automated tests
 	DB instance identifier - `ghostDB`
  
 	Enter new Master Username and Password
+	
+3. Deployment unsucessful
+
+- Deployment onto code pipeline,resulted in server error
+
+```
+(TRUNCATED)...opt/elasticbeanstalk/containerfiles/ebnode.py", line 180, in npm_install raise e 
+subprocess.CalledProcessError: Command '['/opt/elasticbeanstalk/node-install/node-v10.16.0-linux-x64/bin/npm',
+'--production', 'install']' returned non-zero exit status 1. Hook /opt/elasticbeanstalk/hooks/appdeploy/pre/50npm.sh failed. 
+
+```
 
 
 # Quickstart Install
