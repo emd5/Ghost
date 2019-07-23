@@ -1,5 +1,6 @@
 &nbsp;
 <p align="center">
+
   <a href="https://ghost.org">
     <img src="https://user-images.githubusercontent.com/120485/43974508-b64b2fe8-9cd2-11e8-8e58-707254b8817c.png" width="200px" alt="Ghost" />
   </a>
@@ -67,12 +68,24 @@ Run all automated tests
 6. Run `ghost install` (make sure the node version is 8.10.0)
 
 ### Set up Database - Go to AWS Console 
-RDS 
-- Select Mysql
-- Select Dev/Test - MySql 
 
 
-# Roadblock
+1. Select Mysql
+2. Select Dev/Test - MySql
+3. Create new database
+
+### Set up CodePipeline with AWS
+
+1. Create a code pipeline called: `ghostpp`
+
+2. Select github webhook and find `ghost` repo and add it
+
+3. Select `Sample Application`
+
+4. Create new pipeline.
+
+
+# Roadblocks
 
 1. In the instructions to install `$ ghost install local` make sure node version is 
 
@@ -82,6 +95,9 @@ RDS
 
 2. When creating a database, the free tier charges $20.00. Which we decided to use local database.
 
+	DB instance identifier - `ghostDB`
+ 
+	Enter new Master Username and Password
 
 
 # Quickstart Install
