@@ -1,14 +1,5 @@
-&nbsp;
-<p align="center">
+# Deployment with Ghost CMS 
 
-  <a href="https://ghost.org">
-    <img src="https://user-images.githubusercontent.com/120485/43974508-b64b2fe8-9cd2-11e8-8e58-707254b8817c.png" width="200px" alt="Ghost" />
-  </a>
-</p>
-<h3 align="center">Fiercely independent, professional publishing</h3>
-<p align="center">A fully open source, powerful platform for building and running modern publications,<br>
-    we power serious blogs, magazines and journalism from DuckDuckGo to OpenAI & Sky News.</p>
-<hr />
 <p align="center">
     <a href="https://ghost.org">Ghost.org</a> |
     <a href="https://ghost.org/features">Features</a> |
@@ -39,6 +30,10 @@
 ## Author
 
 Xia Liu, Robert Bronson, Liz Mahoney, Doug Klemp
+
+## Deployed Link
+
+http://ghost123.us-west-2.elasticbeanstalk.com/
 
 ## Features
 
