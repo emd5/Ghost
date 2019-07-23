@@ -47,7 +47,7 @@ Create a full cloud deployment pipeline for your assigned application.
 Run all automated tests
 
 
-## Getting 
+## Getting Started
 
 1. Create a directory on your local drive named `ghost`, then cd into the `ghost` directory/
 
