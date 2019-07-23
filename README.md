@@ -60,7 +60,6 @@ Run all automated tests
 
 3. Create an empty directory called `ghost_empty` and `cd` into that folder.
 
-
 4. Run `npm install ghost-cli -g
 
 5. Run `ghost install local`
