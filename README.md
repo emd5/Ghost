@@ -35,29 +35,54 @@
     </a>
 </p>
 
-&nbsp;
+## Author
 
-<br>
+Xia Liu, Robert Bronson, Liz Mahoney, Doug Klemp
 
-<p align="center">
-    <img src="https://user-images.githubusercontent.com/120485/43994697-62e2bdc2-9d99-11e8-94fc-021ab9756f33.gif" width="800" />
-</p>
+## Features
 
-<br>
+Create a full cloud deployment pipeline for your assigned application.
 
-&nbsp;
+- Instantiate the appropriate server architecture
+- Create, initialize, and load any databases
+- Connect the application to the created database
+- Automate the entire process with a CI/CD pipeline
+- Connect to github and auto-deploy from master
+Run all automated tests
 
----
 
-&nbsp;
+## Getting 
 
-<a href="https://ghost.org/pricing"><img src="https://user-images.githubusercontent.com/120485/43995179-556d7620-9da1-11e8-8410-4b2ba48ea8d0.png" alt="Ghost(Pro)" width="165px" /></a>
+1. Create a directory on your local drive named `ghost`, then cd into the `ghost` directory/
 
-The easiest way to deploy Ghost is with our official **[Ghost(Pro)](https://ghost.org/pricing/)** managed service. You can have a fresh instance up and running in a couple of clicks with a worldwide CDN, backups, security and maintenance all done for you.
+2. Go to TryGhost Repo on github: `https://github.com/tryghost/ghost`, fork and clone onto your local machine.
 
-Not only will it save you hours of maintenance per month, but all revenue goes to the Ghost Foundation, which funds the maintenance and further development of Ghost itself. So you’ll be supporting open source software *and* getting a great service! Alternatively if you'd like to support us, we're very grateful to all our backers on [Open Collective](https://opencollective.com/ghost) :heart:
+3. Create an empty directory called `ghost_empty` and `cd` into that folder.
 
-&nbsp;
+
+4. Run `npm install ghost-cli -g
+
+5. Run `ghost install local`
+
+6. Run `ghost install` (make sure the node version is 8.10.0)
+
+### Set up Database - Go to AWS Console 
+RDS 
+- Select Mysql
+- Select Dev/Test - MySql 
+
+
+# Roadblock
+
+1. In the instructions to install `$ ghost install local` make sure node version is 
+
+`npm install -g n`
+
+`sudo n 8.10.0`
+
+2. When creating a database, the free tier charges $20.00. Which we decided to use local database.
+
+
 
 # Quickstart Install
 
