@@ -9,6 +9,7 @@ require('./core/server/overrides');
 
 module.exports = {
     currentVersion: ghostVersion.safe,
-    database: config.get('database'),
-    migrationPath: config.get('paths:migrationPath')
+    database: config.get('ghostDB'),
+    migrationPath: config.get('paths:ghostdb.clya5zyvv4rs.us-west-2.rds.amazonaws.com
+')
 };
