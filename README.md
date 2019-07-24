@@ -87,7 +87,7 @@ Run all automated tests
 
 `sudo n 8.10.0`
 
-2. When creating a database, the free tier charges $20.00. Which we decided to use local database.
+2. When creating a database
 
 	DB instance identifier - `ghostDB`
  
