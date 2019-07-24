@@ -55,11 +55,11 @@ Run all automated tests
 
 3. Create an empty directory called `ghost_empty` and `cd` into that folder.
 
-4. Run `npm install ghost-cli -g
+4. Run `npm install ghost-cli -g`
 
 5. Run `ghost install local`
 
-6. Run `ghost install` (make sure the node version is 8.10.0)
+6. Run `ghost install` (make sure the node version is 8.10.0, Run `node --version`)
 
 ### Set up Database - Go to AWS Console 
 
@@ -79,7 +79,7 @@ Run all automated tests
 4. Create new pipeline.
 
 
-# Roadblocks
+## Roadblocks
 
 1. In the instructions to install `$ ghost install local` make sure node version is 
 
@@ -93,7 +93,7 @@ Run all automated tests
  
 	Enter new Master Username and Password
 	
-3. Deployment unsucessful
+3. Deployment unsuccessful
 
 - Deployment onto code pipeline,resulted in server error
 
@@ -105,7 +105,8 @@ subprocess.CalledProcessError: Command '['/opt/elasticbeanstalk/node-install/nod
 ```
 
 
-# Quickstart Install
+
+## Quickstart Install
 
 If you want to run your own instance of Ghost, in most cases the best way is to use our **CLI tool**
 
@@ -145,13 +146,18 @@ To stay up to date with all the latest news and product updates, make sure you [
 &nbsp;
 
 
-# Contributors & Advanced Developers
+## Contributors & Advanced Developers
 
 For anyone wishing to contribute to Ghost or to hack/customise core files we recommend following our full development setup guides: [General Contributor Guide](https://ghost.org/docs/concepts/contributing/) | [Developer Setup Instructions](https://ghost.org/docs/install/source/) | [Admin Client development guide](https://ghost.org/docs/install/source/#ghost-admin)
 
 &nbsp;
 
 
-# Copyright & License
+## Copyright & License
 
 Copyright (c) 2013-2019 Ghost Foundation - Released under the [MIT license](LICENSE). Ghost and the Ghost Logo are trademarks of Ghost Foundation Ltd. Please see our [trademark policy](https://ghost.org/trademark/) for info on acceptable usage.
+
+
+## Resources 
+https://aws.amazon.com/blogs/devops/six-steps-to-deploy-ghost-to-aws-elastic-beanstalk/
+https://aws.amazon.com/blogs/devops/six-steps-to-deploy-ghost-to-aws-elastic-beanstalk/
